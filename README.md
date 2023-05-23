@@ -1,11 +1,4 @@
 # Object-X
-Real-Time Object Detection Project
-
-User
-
-Describe a project on object detection less than 500 words
-
-ChatGPT
 
 Title: Real-Time Object Detection 
 
