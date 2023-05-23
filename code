@@ -1,0 +1,43 @@
+import cv2
+import numpy as np
+
+# Capture video from the camera
+cap = cv2.VideoCapture(0)
+
+# Create a background subtractor object
+fgbg = cv2.createBackgroundSubtractorMOG2()
+
+# Initialize the object counter
+object_count = 0
+
+while True:
+    # Capture the current frame
+    ret, frame = cap.read()
+
+    # Apply the background subtraction
+    fgmask = fgbg.apply(frame)
+
+    # Find the contours in the foreground mask
+    contours, hierarchy = cv2.findContours(fgmask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    # Count the number of contours
+    object_count = len(contours)
+
+    # Display the number of objects on the frame
+    cv2.putText(frame, str(object_count), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
+
+    # Display the frame
+    cv2.imshow("Frame", frame)
+
+    # Wait for a key press
+    key = cv2.waitKey(1)
+
+    # If the user presses `q`, stop the loop
+    if key == ord("q"):
+        break
+
+# Release the capture object
+cap.release()
+
+# Close all windows
+cv2.destroyAllWindows()
