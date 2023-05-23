@@ -43,4 +43,5 @@ K.Y.Deepthi
 S.Mohammad Gouse
 
 Acknowledgement:
-  We would like to thanks RGMCET and BYTS to make is learn new things and have gain us insights of project creations with team work. Hope to work on this for time and create more projects.
+
+  We would like to thanks RGMCET and BYTS to make is learn new things and have gain us insights of project creations with team work. Hope to work on this for morte time and would like to create more projects.
