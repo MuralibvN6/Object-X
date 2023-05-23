@@ -27,6 +27,7 @@ Conclusion:
 The project presents an end-to-end pipeline for developing a real-time object detection system using deep learning techniques. By leveraging the power of deep neural networks and optimizing for real-time inference, the proposed system can detect objects accurately and efficiently in dynamic environments. The project's outcomes contribute to the field of computer vision and have potential applications in diverse domains such as surveillance, autonomous driving, robotics, and more.
 
 Team Members:
+
 B.Venkata Muralidhara
 
 G.Manjunath
