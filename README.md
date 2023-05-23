@@ -28,11 +28,17 @@ The project presents an end-to-end pipeline for developing a real-time object de
 
 Team Members:
 B.Venkata Muralidhara
+
 G.Manjunath
+
 N.Uma
+
 G.Sudarshan
+
 G.Venkatesh 
+
 K.Y.Deepthi
+
 S.Mohammad Gouse
 
 Acknowledgement:
